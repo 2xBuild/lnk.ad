@@ -22,18 +22,19 @@ export function GithubStars() {
 
     if (stars === null) return null;
 
+
     return (
         <Link
             href="https://github.com/2xBuild/lnk.ad"
             target="_blank"
             rel="noreferrer"
             className={cn(
-                "inline-flex items-center gap-1.5 rounded-full border border-stone-200 bg-white/50 px-3 py-1 text-xs font-medium text-stone-900 transition-colors hover:bg-stone-100 hover:text-stone-900 dark:border-stone-800 dark:bg-stone-950/50 dark:text-stone-100 dark:hover:bg-stone-800",
+                "inline-flex items-center gap-1.5 rounded-full border border-stone-200 bg-white/50 px-3 py-1 text-xs font-medium text-stone-900 transition-colors hover:bg-stone-100 hover:text-stone-900 dark:border-stone-800 dark:bg-stone-950/50 dark:text-stone-100 dark:hover:bg-stone-800 dark:hover:text-stone-50 cursor-pointer",
                 "animate-in fade-in zoom-in duration-500"
             )}
         >
             <Github className="h-3.5 w-3.5" />
-            <span>{stars} stars</span>
+            <span>{stars} {stars === 1 ? "star" : "stars"}</span>
         </Link>
     );
 }

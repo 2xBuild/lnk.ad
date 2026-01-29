@@ -28,7 +28,7 @@ export function SiteFooter() {
                         <span className="sr-only">GitHub</span>
                     </Link>
                     <Link
-                        href="https://github.com/2xBuild/lnk.ad/sponsors"
+                        href="https://github.com/sponsors/2xBuild"
                         target="_blank"
                         rel="noreferrer"
                         className="flex items-center gap-2 rounded-full bg-stone-100 px-4 py-1.5 text-sm font-medium text-stone-900 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-100 dark:hover:bg-stone-700 transition-colors"
