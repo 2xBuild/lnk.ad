@@ -1,14 +1,13 @@
+
 <div align="center">
   <br />
-  <br />
+
   
   <h1>lnk.ad</h1>
 
-  <p>
-    The open-source link attribution platform.
-  </p>
-
 </div>
+<img width="1500" height="500" alt="lnk ad" src="https://github.com/user-attachments/assets/5e2a0195-bc2c-43c7-8694-d8822d864766" />
+
 
 <br />
 
