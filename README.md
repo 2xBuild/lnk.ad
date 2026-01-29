@@ -6,7 +6,7 @@
   <h1>lnk.ad</h1>
 
 </div>
-<img width="1500" height="500" alt="banner (2)" src="https://github.com/user-attachments/assets/d92d67a2-c40f-462e-b6d4-1b575a5ad42c" />
+<img width="1500" height="500" alt="lnk ad" src="https://github.com/user-attachments/assets/5e2a0195-bc2c-43c7-8694-d8822d864766" />
 
 
 <br />
