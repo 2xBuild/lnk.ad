@@ -121,10 +121,10 @@ export default function DocsPage() {
                                             </p>
                                             <div className="flex flex-wrap gap-2">
                                                 <span className="px-2 py-1 bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 text-xs rounded-md font-mono border border-stone-200 dark:border-stone-700">
-                                                    "short" (6 chars)
+                                                    "short" (5 chars)
                                                 </span>
                                                 <span className="px-2 py-1 bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 text-xs rounded-md font-mono border border-stone-200 dark:border-stone-700">
-                                                    "safest" (12 chars)
+                                                    "safest" (7 chars)
                                                 </span>
                                             </div>
                                         </div>

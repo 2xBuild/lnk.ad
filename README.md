@@ -8,13 +8,24 @@
     The open-source link attribution platform.
   </p>
 
-  <p>
-    <a href="https://lnk.ad"><strong>Learn more »</strong></a>
-  </p>
-
 </div>
 
 <br />
+
+## Features
+
+- **Flexible Link Expiration**: Choose how long your links last—from 1 day to forever. Options include 1 day, 1 week, 2 months, 6 months, 1 year, or never.
+- **Link Security**: Select between "Short" (5 characters) for brevity or "Safe" (7 characters) for harder-to-guess URLs.
+- **Privacy Focused**: Open-source and transparent.
+
+## How to contribute
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/amazing-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some amazing feature'`).
+5. Push to the branch (`git push origin feature/amazing-feature`).
+6. Open a Pull Request.
 
 ## Star History
 
