@@ -28,10 +28,10 @@
 
 ## Star History
 
-<a href="https://star-history.com/#YOUR_GITHUB_USERNAME/lnk.ad&Date">
+<a href="https://star-history.com/2xBuild/lnk.ad&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=YOUR_GITHUB_USERNAME/lnk.ad&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=YOUR_GITHUB_USERNAME/lnk.ad&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=YOUR_GITHUB_USERNAME/lnk.ad&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=2xBuild/lnk.ad&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=2xBuild/lnk.ad&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=2xBuild/lnk.ad&type=Date" />
  </picture>
 </a>

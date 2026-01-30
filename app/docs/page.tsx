@@ -100,7 +100,7 @@ export default function DocsPage() {
                                                 <span className="text-xs text-stone-500 uppercase tracking-wider font-semibold">Optional</span>
                                             </div>
                                             <p className="text-sm text-stone-600 dark:text-stone-400 mb-2">
-                                                Set an expiration time for the link. Defaults to "1 week".
+                                                Set an expiration time for the link. Defaults to "6 months".
                                             </p>
                                             <div className="flex flex-wrap gap-2">
                                                 {["1 day", "1 week", "2 months", "6 months", "1 year", "never"].map((opt) => (

@@ -12,7 +12,7 @@ export function ShortenForm() {
     const [copied, setCopied] = useState(false);
 
     // Options
-    const [expiry, setExpiry] = useState("never"); // 1d, 1w, 2m, 6m, 1y, never
+    const [expiry, setExpiry] = useState("6 months"); // 1d, 1w, 2m, 6m, 1y, never
     const [length, setLength] = useState("short"); // short, safest
 
     const [activeDropdown, setActiveDropdown] = useState<'expiry' | 'length' | null>(null);

@@ -13,7 +13,7 @@ export type CreateLinkResult = {
 
 export async function createShortLink(
     url: string,
-    expiry: string = "1 week",
+    expiry: string = "6 months",
     length: string = "short"
 ): Promise<CreateLinkResult> {
     if (!url) {
@@ -49,7 +49,7 @@ export async function createShortLink(
         console.error("Failed to check existing links", e);
     }
 
-    const effectiveExpiry = expiry || "1 week";
+    const effectiveExpiry = expiry || "6 months";
     const effectiveLength = length || "short";
 
     const size = effectiveLength === "safest" ? 7 : 5;
@@ -86,10 +86,13 @@ export async function createShortLink(
         case "never":
             expiresAt = null;
             break;
-        default:
-            // Default to 1 week if unknown
-            expiresAt = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+        default: {
+            // Default to 6 months if unknown
+            const d = new Date(now);
+            d.setMonth(d.getMonth() + 6);
+            expiresAt = d;
             break;
+        }
     }
 
     try {
